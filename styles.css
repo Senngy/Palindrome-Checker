@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.typed {
+    font-size: 1.5rem;
+    width: 100%;
+}
+:root {
+    --backgroung-color: #eff0d6;
+    --title-color:#332447;
+    --container-color:#1e152a;
+    --text-container-color:#97d1d8;
+    --border-btn-color:#548C91;
+
+}
+.game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color:var(--backgroung-color);
+}
+.game h1, .typed {
+    font-size: 4rem;
+    margin-bottom: 10vh;
+    color: var(--title-color);
+    
+}
+
+.input-output {
+    background-color: var(--container-color);
+    color: var(--text-container-color);
+    width:60vw;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    border-radius: 15px;
+    padding: 10px;
+}
+.pres-text {
+    font-size: 2rem;
+    margin:3rem;
+}
+.input-container {
+    display: flex;
+    width: 40vw;
+    min-width: 40vw;
+    margin: 1rem;
+}
+input {
+    width: 30vw;
+    height: 3rem;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    margin-right: 1rem;
+    border: none;
+    border-color: var(--border-btn-color);
+    background-color: var(--backgroung-color);
+    color: #332447;
+    border-radius: 10px;
+    margin: auto auto;
+}
+.btn-check {
+    width: 80px;
+    height: 80px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    border-radius: 25px;
+    background-color: var(--border-btn-color);
+    color: #F7DD72;
+}
+.btn-check:hover {
+    background-color:var(--title-color);
+    color: var(--text-container-color);
+}
+
+/* Result */
+.output {
+    font-size: 2rem;
+    margin: 1rem;
+    width: 50vw;
+    padding-top: 30px ;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Explanation */
+.explanation {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin: 1rem;
+    width: 60vw;
+    padding-top: 30px ;
+}
+.explanation h3 {
+    text-align: center;
+    color: #332447;
+}
+.title .typed-cursor {
+    opacity: 1;
+    display: none;
+}
